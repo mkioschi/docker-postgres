@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+### Docker ###
+/.docker/postgres/data/
+/.docker/postgres/scripts/
+
+### Mantém diretórios ###
+!**/.gitkeep
+
+### Globais ###
+/.local
+/.history
+/.idea
+/.cache
+/.bash_history
+**/*.bak
+**/*.swp
+**/.DS_store
